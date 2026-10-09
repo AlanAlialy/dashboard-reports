@@ -3,11 +3,34 @@
   flex-direction: row;
 }
 
+.btn {
+  display: flex;
+  margin-top: 12px;
+  gap: 8px;
+}
+.btn button {
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: grey;
+}
+
+.btn button:hover {
+  cursor: pointer;
+}
+.search {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 24px;
+}
 
 .topnav {
-  overflow: hidden;
-  background-color: black;
+  width: 220px;
+  min-height: 100vh;
+  background-color: grey;
 }
+
 
 .topnav a {
   display: block;
@@ -24,11 +47,8 @@
 }
 
 .search input[type=text] {
-  float: right;
   padding: 6px;
   border: none;
-  margin-top: 10px;
-  margin-right: 10px;
   font-size: 17px;
 }
 

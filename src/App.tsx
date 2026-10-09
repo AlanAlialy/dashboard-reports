@@ -12,6 +12,10 @@ function App() {
         </div>
         <div className='search'>
           <input type="text" placeholder="Search for user.."></input>
+          <div className='btn'>
+            <button type="button">New User</button>
+            <button type="button">Remove user</button>
+          </div>
         </div>
       </div>
     </>
